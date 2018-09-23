@@ -1,34 +1,63 @@
 <!DOCTYPE html>
 <html>
 	<head>
-    <meta charset="UTF-8">
-   <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
-   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
- 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-   
-	
-	
-
-  
-
-  
-
-  	<title>Team Roblox</title>
-  
-	</head>
+  <title>Team Roblox</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
 	<style>
 ul {
   list-style: none;
 }
+.collapse {
+  display: none;
+}
+.collapse.in {
+  display: block;
+}
+tr.collapse.in {
+  display: table-row;
+}
+tbody.collapse.in {
+  display: table-row-group;
+}
+
+
+
+
+.navbar-collapse {
+  padding-right: 15px;
+  padding-left: 15px;
+  overflow-x: visible;
+  -webkit-overflow-scrolling: touch;
+  border-top: 1px solid transparent;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
+          box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
+}
+.navbar-collapse.in {
+  overflow-y: auto;
+}
+	@media (max-width: 414px){
+
+.titleName{
+
+	text-align: center;
+display: inline-block !important;
+}
+}
 	</style>
 	<body>
-		
+
 		<nav class="navbar navbar-dark bg-dark">
-			<div class="container">
-  <span class="navbar-brand mb-0 h1" id="home">Team Roblox</span>
+			<div class="container titleName">
+  <span class="navbar-brand mb-0 h1 " id="home">Team Roblox</span>
 </div>
 </nav>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
 	<div class="container">
   <a class="navbar-brand" href="#home">Home</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
