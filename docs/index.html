@@ -9,7 +9,7 @@
 	<link rel="icon" href="fav.ico" type="image/gif" sizes="16x16">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-</head> 
+</head>
 <style>
 	ul {
   list-style: none;
@@ -69,188 +69,201 @@ display: inline-block !important;
 			<div class="collapse navbar-collapse" id="navbarNav">
 				<ul class="navbar-nav">
 					<li class="nav-item">
+						<a class="nav-link" href="#presOne">A1: Conceptual Architecture</a>
+					</li>
+					<li class="nav-item">
 						<a class="nav-link" href="#links">Links <span class="sr-only">(current)</span></a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#members">Members</a>
 					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#presOne">A1: Conceptual Architecture</a>
-					</li>
+
 
 				</ul>
 			</div>
 		</div>
 	</nav>
 
+
 	<div class="container">
-		<div class="row">
-
-			<div class="col-12">
-				<div style="padding-top:50px;" id="links"></div>
-				<h1 class="display-4">Links</h1>
-				<ul style="padding-bottom:40px;">
-					<li>
-						<h1>Overview of Chrome</h1>
-					</li>
-					<li><a href="https://www.google.com/chrome/">Offical Website</a></li>
-					<li><a href="https://en.wikipedia.org/wiki/Google_Chrome#History">A History of Chrome</a></li>
-					<li>
-						<a href="https://www.chromium.org/developers">Chromium Dev Homepage</a>
-					</li>
-					<li>
-						<a href="https://chromium.googlesource.com/chromium/src/">Chromium Source Repo</a>
-					</li>
-					<li>
-						<a href="https://v8.dev">Google's javascript engine documentation</a>
-					</li>
-					<li>
-						<a href="https://www.chromium.org/chromium-os/chromiumos-design-docs/security-overview">Chromium security
-									overview</a>
-					</li>
-				</ul>
-				<ul style="padding-bottom:40px;">
-					<li>
-						<h1>Chrome Extensions & Themes</h1>
-					</li>
-					<li><a href="https://developer.chrome.com/extensions">Getting Started with Extensions</a></li>
-					<li><a href="https://www.youtube.com/watch?v=bmxr75CV36A">Intro Video</a></li>
-					<li><a href="https://developer.chrome.com/home">Development Page</a></li>
-					<li><a href="https://developer.chrome.com/extensions/themes">Getting Started with Themes</a></li>
-					<li>
-						<a href="https://www.chromium.org/developers/useful-extensions">Dev Extensions</a>
-					</li>
-                    <li><a href="https://developer.chrome.com/extensions/devguide">General Extensions Dev Guide</a></li>
-				</ul>
-				<ul style="padding-bottom:40px;">
-					<li>
-						<h1>Architecture & Design</h1>
-					</li>
-					<li><a href="https://www.chromium.org/chromium-os/chromiumos-design-docs/software-architecture">Intro to
-						Chromium's Architecture: Chrome's Open Source Counterpart</a></li>
-				<li><a href="https://www.chromium.org/developers/design-documents/multi-process-architecture">Chromium's High
-						Level Architecture</a></li>
-				<li><a href="https://www.chromium.org/developers/design-documents/displaying-a-web-page-in-chrome">How Chromium
-						Displays Web Pages</a></li>
-				<li><a href="https://seclab.stanford.edu/websec/chromium/chromium-security-architecture.pdf">Chromium Security
-						Architecture</a></li>
-				<li><a href="https://developers.google.com/web/updates/2018/09/inside-browser-part1">Chrome's 
-						Multi-Process Architecture</a></li>
-				<li>
-				<a href="https://www.chromium.org/developers/design-documents">Chromium design documents</a>
-			    </li>
-                <li>
-                    <a href="https://developer.chrome.com/apps/app_architecture">Chrome Apps Architecture</a>
-                </li>
-				</ul>
-				<ul style="padding-bottom:40px;">
-						<li>
-							<h1>Other Links</h1>
-						</li>
-					</li>
-	
-					
-				
-				
-				<li>
-					<a href="https://www.chromium.org/developers/design-documents/network-stack">The network stack</a>
-				</li>
-				<li>
-					<a href="https://www.chromium.org/developers/design-documents/accessibility">Accessibility</a>
-				</li>
-				<li>
-					<a href="https://www.chromium.org/developers/design-documents/sync">Chrome account sync API</a>
-				</li>
-				<li>
-					<a href="https://www.chromium.org/developers/design-documents/video">Audio/Video playback</a>
-				</li>
-				<li>
-					<a href="https://chromium.googlesource.com/chromium/src/+/master/docs/design/sandbox.md">The Chromium sandbox</a>
-				</li>
-				
-				
-				<li>
-					<a href="https://gerrit-review.googlesource.com/Documentation/index.html">Gerrit Code Review</a>
-				</li>
-				<li>
-					<a href="https://chromium-review.googlesource.com/q/status:open">Chrome Gerrit</a>
-				</li>
-                <li>
-                    <a href="https://www.chromium.org/developers/memory-usage-backgrounder">Memory Usage Management</a>
-                </li>
-				
-					</ul>
-				
-
-			</div>
-
-		</div>
 		<div class="row">
 
 			<div class="col-12">
 				<div style="padding-top:50px;" id="presOne"></div>
 				<h1 class="display-4">A1: Conceptual Architecture</h1>
-				<div class="mxgraph" style="max-width:100%;border:1px solid transparent;" data-mxgraph="{&quot;highlight&quot;:&quot;#0000ff&quot;,&quot;nav&quot;:true,&quot;resize&quot;:true,&quot;toolbar&quot;:&quot;zoom layers lightbox&quot;,&quot;edit&quot;:&quot;_blank&quot;,&quot;xml&quot;:&quot;&lt;mxfile userAgent=\&quot;Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36\&quot; version=\&quot;9.2.3\&quot; editor=\&quot;www.draw.io\&quot; type=\&quot;device\&quot;&gt;&lt;diagram name=\&quot;Page-1\&quot; id=\&quot;5f0bae14-7c28-e335-631c-24af17079c00\&quot;&gt;5VtZd6M2FP41fs0BxObHiZPOTE+mzamn0/RRsRWsGiMfkOOkv74CJIyWNNgRhmTyErhagO/u98oTMNs8fc7hdvWNLFE68Zzl0wRcTTzPdQKf/SspzzUlAJyQ5HjJJx0Ic/wvEis5dYeXqJAmUkJSircycUGyDC2oRIN5TvbytAeSyk/dwgRphPkCpjr1L7ykK071Hecw8AXhZMUfHQd84B4u1klOdhl/3sQDD9VfPbyBYi8+v1jBJdm3SOB6AmY5IbS+2jzNUFpiK2Cr1/3ywmjz3jnKaJcFXr3gEaY7JN44TNnSy/ucXSXl1cegXJZSgditc50lOEOmNRVH6LOQgoqPqETKYcP7FaZovoWLcnTP5J7RVnSTsjuXXS5hsarmus1Wjyin6OlFzrgNv5keIbJBNH9mU/gCL+IiwlXIDbyLoKbsDyIJhESuWtLoAk6EXA2SZveDKLALLg1myfA1yfizhu9rRlH+UMJgGUELoIGoAUnAFuqgMfukg+ZbwCzQMLtNd0zYincBVWOUzgFVqAGAlswE81uS0xVJSAbT6wP1UoaoBQd6wvSuJLMvqu/+5iP/IEqfuX+BO0oY6bD3DSFbCdDyFf4fTvbGZJcvkMRvCvME0RZJBz1HKaT4Ud79LfhNDYZ7zOYLTHXhMhqv2IJwua6GzmWKs/UY1TCUcWpCjLYSegacQhs46e7/D8Q+P8dZ0nKUCkTsY6mMQ0FzskYzkpKcUTKSldr6gNNUIcEUJxm7XaDShzBCCR1mYdcnPrDBy2Wl6ibgZdbYFligCKwfmayhgRGeDUaA19WZMeZTGdqW+KWwKPDCJIyvmzAdgdYXBoYPFLTONow/4ZZg9uADwK4CsKrptWXlq9ox6ysbBao/qu2xtlHFhOazu/FFj4LGFtd2ofw6F3HbNkel5o099vXU2CQIDNpoEtZGRd+kjnog9yMeofNgRkvFyWS1enMf4YfQjrtvN+wjbmFejF8zfMVLnVkvIo3hN/i+wm90uuHHQ2pG/PH9eeD7dvy5ulGf/rxD2mTkS8Hegb5rdvni20VCdiq7tI3UANgeu8TO79zB9Ee5wsU2haUQXcLFmknu2P1X5Mj+qylVtpSgscCS/4osmGVPrwvM1xgO7qsiT6nEGbz61ACKjTqvsIAtTD5ffR0cklipi7iRXsftDRI9G/+B0b4YHJRIyXzd8IwxjacHf918p6FQK67LMi0v2mbsde44ktVNPQaiqSDcohxvqvS1ntXV48o1Wx5rtGu2Nb+Hcsyhp0r6iY45AspGQX+O2UJ8e7wsBCczXWi0xHVvSK5Hin1rWt/Hcl0zlEHQG9dPjZ47tWoscnbQQDv2VSOtMKQzZ9UOsLrRC5xl+FchoZi2LScUb+Q9eI+h+G+I7km+rroZ446Lpy+wWirrGFqxTX/2LZ4d6GExR44R55RlFm8DywI+rqNWOt04MpyH6C36AXqYfLztE36tuTnFr7UtHXDMqJ3H0nlhqPiw+DRL17yQ2Chs6v/2vRjQi/tjs1vjp9RngRjWzhWksL46nLBikXqBC4oy+4eE+i5IGPvvxoKEjYMKQO+gXOGiNLszuFjprfehCxO+1/E0lZp6nASOnnB++f79drTgBK5BdPoCx9d99vH+yBiLN0lXa0j4qtPjdMFMyXuFQ3ovtZgSqHXsznG6knf7/RXEfRtRiMi7LxxHysEuHE+M2ym1eAaWv3A+7kwtKyWjasLuo1tWSnMR+L2FK6I59lOGKzco6aGpYcH2x67cswyBKRtpsmYpcLCRjvimIPZIQ9BVqQcrpEzlRmN0yPiO1ddp8OpWFjXWENShLeNGwYi/ZxqfxnGe0oZSxGqSHoUmtYiBLjM2TlH6HToUZzcUcSwj4hkRMZ0rtVDZ8fU6/Xx3Xzyz3GzzceVw6ija7pgw902Y2/gRSIcYbdCUVxXJ0HAyqi+BDPTW6oxstkyMuNn9KQQyNPT3LYkjuz38erB2XoefaILr/wA=&lt;/diagram&gt;&lt;/mxfile&gt;&quot;}"></div>
-<script type="text/javascript" src="https://www.draw.io/js/viewer.min.js"></script>
-				</div>
-		</div>
-		<div>
-
-
-		<div class="row">
-
-			<div class="col-12">
-				<div style="padding-top:50px;" id="members"></div>
-				<h1 class="display-4">Members</h1>
 				<ul style="padding-bottom:40px;">
 					<li>
-						<h1>Christopher Molloy</h1>
+						<h1>Intro To Chrome's Conceptual Architecture</h1>
+					<li>Intro to project one</li>
 					</li>
-					<li>Third Year</li>
-					<li>Computing & Mathematics</li>
-
-				</ul>
-				<ul style="padding-bottom:40px;">
 					<li>
-						<h1>Michael Wrana</h1>
+						<h1>Architecture Diagram</h1>
+						<div class="mxgraph" style="max-width:100%;border:1px solid transparent;" data-mxgraph="{&quot;highlight&quot;:&quot;#0000ff&quot;,&quot;nav&quot;:true,&quot;resize&quot;:true,&quot;toolbar&quot;:&quot;zoom layers lightbox&quot;,&quot;edit&quot;:&quot;_blank&quot;,&quot;xml&quot;:&quot;&lt;mxfile userAgent=\&quot;Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36\&quot; version=\&quot;9.2.3\&quot; editor=\&quot;www.draw.io\&quot; type=\&quot;device\&quot;&gt;&lt;diagram name=\&quot;Page-1\&quot; id=\&quot;5f0bae14-7c28-e335-631c-24af17079c00\&quot;&gt;5VtZd6M2FP41fs0BxObHiZPOTE+mzamn0/RRsRWsGiMfkOOkv74CJIyWNNgRhmTyErhagO/u98oTMNs8fc7hdvWNLFE68Zzl0wRcTTzPdQKf/SspzzUlAJyQ5HjJJx0Ic/wvEis5dYeXqJAmUkJSircycUGyDC2oRIN5TvbytAeSyk/dwgRphPkCpjr1L7ykK071Hecw8AXhZMUfHQd84B4u1klOdhl/3sQDD9VfPbyBYi8+v1jBJdm3SOB6AmY5IbS+2jzNUFpiK2Cr1/3ywmjz3jnKaJcFXr3gEaY7JN44TNnSy/ucXSXl1cegXJZSgditc50lOEOmNRVH6LOQgoqPqETKYcP7FaZovoWLcnTP5J7RVnSTsjuXXS5hsarmus1Wjyin6OlFzrgNv5keIbJBNH9mU/gCL+IiwlXIDbyLoKbsDyIJhESuWtLoAk6EXA2SZveDKLALLg1myfA1yfizhu9rRlH+UMJgGUELoIGoAUnAFuqgMfukg+ZbwCzQMLtNd0zYincBVWOUzgFVqAGAlswE81uS0xVJSAbT6wP1UoaoBQd6wvSuJLMvqu/+5iP/IEqfuX+BO0oY6bD3DSFbCdDyFf4fTvbGZJcvkMRvCvME0RZJBz1HKaT4Ud79LfhNDYZ7zOYLTHXhMhqv2IJwua6GzmWKs/UY1TCUcWpCjLYSegacQhs46e7/D8Q+P8dZ0nKUCkTsY6mMQ0FzskYzkpKcUTKSldr6gNNUIcEUJxm7XaDShzBCCR1mYdcnPrDBy2Wl6ibgZdbYFligCKwfmayhgRGeDUaA19WZMeZTGdqW+KWwKPDCJIyvmzAdgdYXBoYPFLTONow/4ZZg9uADwK4CsKrptWXlq9ox6ysbBao/qu2xtlHFhOazu/FFj4LGFtd2ofw6F3HbNkel5o099vXU2CQIDNpoEtZGRd+kjnog9yMeofNgRkvFyWS1enMf4YfQjrtvN+wjbmFejF8zfMVLnVkvIo3hN/i+wm90uuHHQ2pG/PH9eeD7dvy5ulGf/rxD2mTkS8Hegb5rdvni20VCdiq7tI3UANgeu8TO79zB9Ee5wsU2haUQXcLFmknu2P1X5Mj+qylVtpSgscCS/4osmGVPrwvM1xgO7qsiT6nEGbz61ACKjTqvsIAtTD5ffR0cklipi7iRXsftDRI9G/+B0b4YHJRIyXzd8IwxjacHf918p6FQK67LMi0v2mbsde44ktVNPQaiqSDcohxvqvS1ntXV48o1Wx5rtGu2Nb+Hcsyhp0r6iY45AspGQX+O2UJ8e7wsBCczXWi0xHVvSK5Hin1rWt/Hcl0zlEHQG9dPjZ47tWoscnbQQDv2VSOtMKQzZ9UOsLrRC5xl+FchoZi2LScUb+Q9eI+h+G+I7km+rroZ446Lpy+wWirrGFqxTX/2LZ4d6GExR44R55RlFm8DywI+rqNWOt04MpyH6C36AXqYfLztE36tuTnFr7UtHXDMqJ3H0nlhqPiw+DRL17yQ2Chs6v/2vRjQi/tjs1vjp9RngRjWzhWksL46nLBikXqBC4oy+4eE+i5IGPvvxoKEjYMKQO+gXOGiNLszuFjprfehCxO+1/E0lZp6nASOnnB++f79drTgBK5BdPoCx9d99vH+yBiLN0lXa0j4qtPjdMFMyXuFQ3ovtZgSqHXsznG6knf7/RXEfRtRiMi7LxxHysEuHE+M2ym1eAaWv3A+7kwtKyWjasLuo1tWSnMR+L2FK6I59lOGKzco6aGpYcH2x67cswyBKRtpsmYpcLCRjvimIPZIQ9BVqQcrpEzlRmN0yPiO1ddp8OpWFjXWENShLeNGwYi/ZxqfxnGe0oZSxGqSHoUmtYiBLjM2TlH6HToUZzcUcSwj4hkRMZ0rtVDZ8fU6/Xx3Xzyz3GzzceVw6ija7pgw902Y2/gRSIcYbdCUVxXJ0HAyqi+BDPTW6oxstkyMuNn9KQQyNPT3LYkjuz38erB2XoefaILr/wA=&lt;/diagram&gt;&lt;/mxfile&gt;&quot;}"></div>
+						<script type="text/javascript" src="https://www.draw.io/js/viewer.min.js"></script>
 					</li>
-					<li>3rd Year</li>
-					<li>COMA</li>
-
-				</ul>
-				<ul style="padding-bottom:40px;">
-					<li>
-						<h1>Cameron Raymond</h1>
-					</li>
-					<li>Third Year</li>
-					<li>Computer Science</li>
-				</ul>
-				<ul style="padding-bottom:40px;">
-					<li>
-						<h1>Ross Hill</h1>
-					</li>
-					<li>Third Year</li>
-					<li>Software Design</li>
-				</ul>
-				<ul style="padding-bottom:40px;">
-					<li>
-						<h1>Brendan Russell</h1>
-					</li>
-					<li>Third Year</li>
-					<li>Software Design</li>
-				</ul>
-				<ul style="padding-bottom:40px;">
-					<li>
-						<h1>Brenden Forbes</h1>
-					</li>
-					<li>Fourth Year</li>
-					<li>Software Design</li>
 				</ul>
 
 			</div>
-
 		</div>
 		<div>
+			<div class="row">
+
+				<div class="col-12">
+					<div style="padding-top:50px;" id="links"></div>
+					<h1 class="display-4">Links</h1>
+					<ul style="padding-bottom:40px;">
+						<li>
+							<h1>Overview of Chrome</h1>
+						</li>
+						<li><a href="https://www.google.com/chrome/">Offical Website</a></li>
+						<li><a href="https://en.wikipedia.org/wiki/Google_Chrome#History">A History of Chrome</a></li>
+						<li>
+							<a href="https://www.chromium.org/developers">Chromium Dev Homepage</a>
+						</li>
+						<li>
+							<a href="https://chromium.googlesource.com/chromium/src/">Chromium Source Repo</a>
+						</li>
+						<li>
+							<a href="https://v8.dev">Google's javascript engine documentation</a>
+						</li>
+						<li>
+							<a href="https://www.chromium.org/chromium-os/chromiumos-design-docs/security-overview">Chromium security
+								overview</a>
+						</li>
+					</ul>
+					<ul style="padding-bottom:40px;">
+						<li>
+							<h1>Chrome Extensions & Themes</h1>
+						</li>
+						<li><a href="https://developer.chrome.com/extensions">Getting Started with Extensions</a></li>
+						<li><a href="https://www.youtube.com/watch?v=bmxr75CV36A">Intro Video</a></li>
+						<li><a href="https://developer.chrome.com/home">Development Page</a></li>
+						<li><a href="https://developer.chrome.com/extensions/themes">Getting Started with Themes</a></li>
+						<li>
+							<a href="https://www.chromium.org/developers/useful-extensions">Dev Extensions</a>
+						</li>
+						<li><a href="https://developer.chrome.com/extensions/devguide">General Extensions Dev Guide</a></li>
+					</ul>
+					<ul style="padding-bottom:40px;">
+						<li>
+							<h1>Architecture & Design</h1>
+						</li>
+						<li><a href="https://www.chromium.org/chromium-os/chromiumos-design-docs/software-architecture">Intro to
+								Chromium's Architecture: Chrome's Open Source Counterpart</a></li>
+						<li><a href="https://www.chromium.org/developers/design-documents/multi-process-architecture">Chromium's High
+								Level Architecture</a></li>
+						<li><a href="https://www.chromium.org/developers/design-documents/displaying-a-web-page-in-chrome">How Chromium
+								Displays Web Pages</a></li>
+						<li><a href="https://seclab.stanford.edu/websec/chromium/chromium-security-architecture.pdf">Chromium Security
+								Architecture</a></li>
+						<li><a href="https://developers.google.com/web/updates/2018/09/inside-browser-part1">Chrome's
+								Multi-Process Architecture</a></li>
+						<li>
+							<a href="https://www.chromium.org/developers/design-documents">Chromium design documents</a>
+						</li>
+						<li>
+							<a href="https://developer.chrome.com/apps/app_architecture">Chrome Apps Architecture</a>
+						</li>
+					</ul>
+					<ul style="padding-bottom:40px;">
+						<li>
+							<h1>Other Links</h1>
+						</li>
+						</li>
+
+
+
+
+						<li>
+							<a href="https://www.chromium.org/developers/design-documents/network-stack">The network stack</a>
+						</li>
+						<li>
+							<a href="https://www.chromium.org/developers/design-documents/accessibility">Accessibility</a>
+						</li>
+						<li>
+							<a href="https://www.chromium.org/developers/design-documents/sync">Chrome account sync API</a>
+						</li>
+						<li>
+							<a href="https://www.chromium.org/developers/design-documents/video">Audio/Video playback</a>
+						</li>
+						<li>
+							<a href="https://chromium.googlesource.com/chromium/src/+/master/docs/design/sandbox.md">The Chromium sandbox</a>
+						</li>
+
+
+						<li>
+							<a href="https://gerrit-review.googlesource.com/Documentation/index.html">Gerrit Code Review</a>
+						</li>
+						<li>
+							<a href="https://chromium-review.googlesource.com/q/status:open">Chrome Gerrit</a>
+						</li>
+						<li>
+							<a href="https://www.chromium.org/developers/memory-usage-backgrounder">Memory Usage Management</a>
+						</li>
+
+					</ul>
+
+
+				</div>
+
+			</div>
+
+
+
+			<div class="row">
+
+				<div class="col-12">
+					<div style="padding-top:50px;" id="members"></div>
+					<h1 class="display-4">Members</h1>
+					<ul style="padding-bottom:40px;">
+						<li>
+							<h1>Christopher Molloy</h1>
+						</li>
+						<li>Third Year</li>
+						<li>Computing & Mathematics</li>
+
+					</ul>
+					<ul style="padding-bottom:40px;">
+						<li>
+							<h1>Michael Wrana</h1>
+						</li>
+						<li>3rd Year</li>
+						<li>COMA</li>
+
+					</ul>
+					<ul style="padding-bottom:40px;">
+						<li>
+							<h1>Cameron Raymond</h1>
+						</li>
+						<li>Third Year</li>
+						<li>Computer Science</li>
+					</ul>
+					<ul style="padding-bottom:40px;">
+						<li>
+							<h1>Ross Hill</h1>
+						</li>
+						<li>Third Year</li>
+						<li>Software Design</li>
+					</ul>
+					<ul style="padding-bottom:40px;">
+						<li>
+							<h1>Brendan Russell</h1>
+						</li>
+						<li>Third Year</li>
+						<li>Software Design</li>
+					</ul>
+					<ul style="padding-bottom:40px;">
+						<li>
+							<h1>Brenden Forbes</h1>
+						</li>
+						<li>Fourth Year</li>
+						<li>Software Design</li>
+					</ul>
+
+				</div>
+
+			</div>
+			<div>
 </body>
 
 </html>
